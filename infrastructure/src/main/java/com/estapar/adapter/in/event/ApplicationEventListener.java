@@ -15,7 +15,7 @@ public class ApplicationEventListener implements ApplicationRunner {
 
     private final GarageInitializationUseCase garageInitializationUseCase;
 
-    public ApplicationEventListener(@Lazy GarageInitializationUseCase garageInitializationUseCase) {
+    public ApplicationEventListener(GarageInitializationUseCase garageInitializationUseCase) {
         this.garageInitializationUseCase = garageInitializationUseCase;
     }
 
